@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl" ?>
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="schema.xsd">
+    <employee id="1">
+        <name>kapil</name>
+        <position>Data Analytics</position>
+    </employee>
+    <employee id="2">
+        <name>Anshul</name>
+        <position>Artificial Inteligence</position>
+    </employee>
+    <employee id="3">
+        <name>Nidhi</name>
+        <position>Image Processing</position>
+    </employee>
+    <employee id="4">
+        <name>Munish</name>
+        <position>IWT</position>
+    </employee>
+</employees> 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="Header">
+        Google form
+    </header>
+    <div class="container">
+        <div class="heading-line">
+            <div style="width: 100%; height: 15px; background-color:blueviolet; border-radius: 5px 5px 0px 0px;"></div>
+            <h3 style="margin: 10px;">Feedback Form</h3>
+            <p>Fill the correct data in this form</p>
+        </div>
+        <form action="">
+            <section class="section">
+                <label for="name">Full Name</label><br />
+                <input class="input" type="text" placeholder="Enter your full name" required id="name" name="Name" maxlength="100" />
+                <br />
+                <label for="email">Email Address</label><br />
+                <input class="input" type="email" placeholder="Enter your email" required id="email" name="email" maxlength="100"
+                    pattern="[a-z0-9._%-+]+@[a-z0-9.-]+\.[a-z]{2,}$" /><br />
+                <label for="password">Chose Password</label><br />
+                <input class="input" type="password" name="password" id="password" required maxlength="8"
+                    placeholder="Enter strong password">
+            </section>
+            <section class="section">
+                <label for="date">Date of visit</label><br/>
+                <input class="input" type="date" name="date" id="date" required/> <br/>
+                <label for="time">Time of visiting</label><br/>
+                <input class="input" type="time" name="time" id="time" required><br/>
+                <label for="service">Service Used</label><br/>
+                <select name="service" id="service" required>
+                    <option value="">--Select--</option>
+                    <option value="Gamming">Gamming</option>
+                    <option value="Consulting">Consulting</option>
+                    <option value="Buying">Buying</option>
+                    <option value="Other">Other</option>
+                </select>
+            </section>
+            <section class="section">
+                <label for="hobbies">What are your hobbies:</label><br/>
+                <label for="Playing">Playing:</label>
+                <input class="checkbox" type="checkbox" id="Playing" name="Playing">
+                <label for="Cooking">Cooking: </label>
+                <input class="checkbox" type="checkbox" id="Cooking" name="Cooking">
+                <label for="Travelling">Travelling: </label>
+                <input class="checkbox" type="checkbox" id="Travelling" name="Travelling">
+                <label for="Singing">Singing: </label>
+                <input class="checkbox" type="checkbox" id="Singing" name="Singing">
+                <label for="Dancing">Dancing: </label>
+                <input class="checkbox" type="checkbox" id="Dancing" name="Dancing"><br/><br/>
+                <label for="select-box">Would you recommend us?</label>
+                <input type="radio" id="yes" value="Yes" name="recommend" required>
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" value="no" name="recommend" required>
+                <label for="no">No</label><br/><br/>
+                <label for="Document">Upload Supporting Document:</label><br/>
+                <input class="input" type="file" name="upload" id="upload" multiple>
+            </section>
+            <section class="section">
+
+                <label for="feedback">Write Sonething About Servies:</label><br/>
+                <textarea name="feedback" id="feedback"  maxlength="1000" placeholder="Write some about our servies"></textarea><br/>
+                <label for="range">Rate our servies:</label><br/>
+                <input class="input" type="range" max="10" id="range" name="range" min="1" step="1"><br/>
+                <label for="color-picker">Chose Your Favorite Colour:</label>
+                <input class="input" type="color" id="colour" name="color">
+            </section>
+            <section class="section">
+                <button class="input" style="background-color: rgb(255, 28, 28); color: white; border: none;" > Submit
+
+                </button>
+
+            </section>
+        </form>
+
+    </div>
+</body>
+
+</html>

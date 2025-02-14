@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Header {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+}
+.container{
+    width: 50%;
+    justify-self: center;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1) ;
+    
+}
+.heading-line{
+    width: 100%;
+    height: 150px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1) ;
+    text-align: center;
+}
+.heading-line h3 p{
+    margin: 200px;
+}
+.section{
+    width: auto;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.1) ;
+    margin: 10px auto;
+    padding: 15px;
+
+
+}
+label{
+    font-size:larger;
+    
+}
+.input{
+    width: 100%;
+    height: 35px;
+    margin: 8px auto;
+}
+select{
+    width: 100%;
+    height: 35px;
+    margin: 8px auto;
+}
+.checkbox{
+    margin: 10px;
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    margin: 8px auto;
+}
