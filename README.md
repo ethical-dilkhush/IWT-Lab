@@ -1,16 +1,27 @@
-# Iwt Lab
+# IWT Lab
 
-A project by ethical-dilkhush focused on practical implementation and learning-oriented development.
+Front-end web development exercises with HTML, CSS, and XML validation.
 
-## Purpose
-This repository experiments with real-world workflows in web development and automation. It is intended as a functional reference and practice workspace.
+## Overview
 
-## Tech Stack
-- Based on repo files present in the project
-- PHP, Python, JavaScript, or Java depending on branch artifacts
+This repository contains hands-on lab work for web technology exercises, including iframe/media pages, front-end UI samples, and XML schema validation.
+
+## Files
+
+- `Lab2/` — iframe, video, audio, and image-map examples
+- `Lab3/` — front-end UI pages and styles
+- `Lab4/` — XML validation project with Express and `xsd-schema-validator`
 
 ## Usage
-Review source files or run included entry points noted in each script or page file.
+
+Open the HTML files directly or run the Lab4 validation script with Node.js.
+
+To install dependencies for `Lab4`:
+`npm install`
+
+Validator example:
+`node Lab4/validate.js`
 
 ## License
+
 MIT
