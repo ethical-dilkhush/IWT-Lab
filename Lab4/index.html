@@ -1,6 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4: XML Validation</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; background: #f9f9f9; }
+        h1 { color: #333; }
+        object { border: 1px solid #ccc; }
+        .note { background: #eef; padding: 0.5em 1em; border-radius: 4px; margin-top: 1em; }
+    </style>
+</head>
 <body>
-    <object data="data.xml" type="text/xml" width="500" height="200"></object>
+    <h1>Lab 4: XML Validation</h1>
+    <p>This page demonstrates XML data display using an XSL transformation.</p>
+    <object data="data.xml" type="text/xml" width="600" height="300"></object>
+    <div class="note">
+        <strong>Note:</strong> The XML is validated against <code>schema.xsd</code> using
+        the <code>xsd-schema-validator</code> npm package. Run <code>node Lab4/validate.js</code>
+        from the Lab4 directory to validate.
+    </div>
 </body>
-</html> 
+</html>
